@@ -47,7 +47,7 @@ const BookInfo = ({ books, addToCart, cart }) => {
                 <div className="book__summary">
                   <h3 className="book__summary--title">Summary</h3>
                   <p className="book__summary--para">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    A Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Ratione eius commodi quia atque eum. Quaerat, sunt
                     voluptatum similique voluptas nostrum tempore, earum quod
                     minima dolore numquam enim explicabo obcaecati nisi?
