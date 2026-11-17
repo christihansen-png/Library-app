@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+Library
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An online bookstore built with React, with a working shopping cart and price sorting.
 
-## Available Scripts
+Live site: library-app-thal.vercel.app
 
-In the project directory, you can run:
+About
 
-### `npm start`
+Library is a sample bookstore website. Shoppers can browse books, sort them, open a page for each book and build a cart that keeps track of quantities and totals.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Home page
 
-### `npm test`
+Landing section with a big headline and a "Browse books" button
+Highlights section explaining why to shop here
+Featured books and discounted books sections
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Browsing books
 
-### `npm run build`
+Page with every book
+Sort by price (low to high or high to low) or by rating
+Star ratings and sale prices shown on each book
+Each book has its own page with details and recommended 5-star books
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Shopping cart
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+"Add to cart" turns into "Checkout" once a book is in the cart
+Change quantities or remove books
+Subtotal, tax and total update right away
+Cart count in the nav bar stays up to date on every page
+Friendly empty-cart message with a button back to the books
+Built With
+React
+React Router (home, books, book info and cart pages)
+Hooks: useState, useEffect
+Reusable components (Book, Price, Rating, Highlight)
+Font Awesome icons
+Hosted on Vercel
+What I Learned
+Breaking a page into small, reusable components
+Keeping the cart in one place (App) and passing it down with props
+Updating state without changing the original array (...spread, .map(), .filter())
+Sorting a copy of an array with .slice().sort()
+Using routes and URL IDs to show a different page for each book
+Author
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Christi Hansen Moore | Beautiful You Web Studio beautifulyouwebstudio.com | Portfolio | GitHub
